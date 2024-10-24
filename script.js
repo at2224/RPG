@@ -101,7 +101,7 @@ const locations = [
     {
         name: "easter egg",
         "button text": ["2", "8", "Go to town square?"],
-        "button functions": [pickTwo(), pickEight(), goTown],
+        "button functions": [pickTwo, pickEight, goTown],
         text: "You find a secret game. Pick a number above. Ten numbers will be randomly chosen between 0 and 10. if the number you choose matches one of the random numbers, you win!"
     }
 ];
@@ -285,7 +285,7 @@ function pickEight() {
 function pick(guess) {
     let numbers = [];
     while(numbers.length < 10) {
-        numnbers.push(Math.floor(Math.random() * 11));
+        numbers.push(Math.floor(Math.random() * 11));
     }
     text.innerText = "You picked " + guess + ". Here are the random numbers: \n";
 
