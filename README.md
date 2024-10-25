@@ -22,3 +22,6 @@ Begin your journey by fighting smaller monsters to build experience. \
 Upgrade your weapons and armor as you earn gold. \
 Once you’re strong enough, challenge the dragon to save the town! \
 Embark on this adventure and prove your might as the ultimate Dragon Repeller!
+
+## Credits
+freeCodeCamp.org, which helped guide the implementation of HTML, CSS, JS.
